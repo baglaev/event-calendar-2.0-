@@ -1,5 +1,76 @@
-.leftColumns {
+.header {
   display: flex;
-  column-gap: 19px;
-  align-items: center;
+  max-width: 1800px;
+  height: 77px;
+  justify-content: space-between;
+  margin: 30px auto 0;
+  align-items: flex-end;
+  white-space: nowrap;
+  font-family: var(--font-red-collar);
+
+  &__leftСolumn {
+    display: flex;
+    column-gap: 19px;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-right: 19px;
+    display: flex;
+  }
+
+  &__logoImg {
+    margin-right: 35px;
+  }
+
+  &__title {
+    font-size: 64px;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  &__span {
+    color: #f51b1b;
+  }
+
+  &__rightColumn {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 8px;
+  }
+
+  &__calendarButtons {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  &__calendarMonth {
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  &__calendarButtons {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  &__calendarButton {
+    width: 64px;
+    height: 48px;
+    border-radius: 8px;
+    // background-image: url(/src/images/button-prev.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center;
+    cursor: pointer;
+  }
+  &_buttonNext {
+    transform: rotate(180deg);
+  }
 }
