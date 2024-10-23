@@ -1,8 +1,12 @@
+@import './normalize.scss';
+@import './variables.scss';
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --font-red-collar: 'RedCollar', sans-serif;
   --font-tt-commons: 'TTCommons', sans-serif;
+  padding: 0 60px;
 }
 
 @media (prefers-color-scheme: dark) {

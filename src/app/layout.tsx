@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import './globals.css';
+import '../shared/styles/globals.scss';
 
 const redCollar = localFont({
   src: '../shared/assets/fonts/Redcollar.woff',
